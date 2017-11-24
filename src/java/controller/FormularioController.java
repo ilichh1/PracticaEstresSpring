@@ -25,6 +25,10 @@ public class FormularioController {
     
     @RequestMapping(method = RequestMethod.POST)
     public String postMethod(@RequestParam("preguntas") int preguntas, Model model) {
+        if(preguntas == -1) {
+            System.out.println("Ilich");
+            return "ilich";
+        }
         if(preguntas > 9) {
             return "estresado";
         }
