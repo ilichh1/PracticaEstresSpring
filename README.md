@@ -21,7 +21,7 @@ En la vista de formulario es un formulario generado "dínamicamente" con un arre
 
 ****
 
-_Por ahora el proyecto no tiene persistencia de datos, pero estoy seguro que con un par de Rigo Clases podré hacerlo ¡Ayudame_ @RigoBono _!_
+_Por ahora el proyecto no tiene persistencia de datos, pero estoy seguro que con un par de Rigo Clases podré hacerlo ¡Ayudame_ @RigoBono_!_
 
 Eso es todo de mi parte por ahora. Gracias por tu visita mis repositorios de novato, vuelve pronto ;)
 
