@@ -1,6 +1,6 @@
 ## Estrés en primavera :scream:
 
-![Alguien estresado](https://www.compoundingexpert.com/wp-content/uploads/2017/08/stress-1.jpg)
+![Alguien estresado](http://blogs.jpmsonline.com/wp-content/uploads/2017/11/stress.jpg)
 
 ****
 
