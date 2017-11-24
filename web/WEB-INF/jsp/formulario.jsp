@@ -25,6 +25,16 @@
                     </select>
                 </li>
                 <% }%>
+                
+                <li>
+                    <label for="pregunta-magica">¿Considera usted que Ilich es atractivo?</label>
+                    <select id="pregunta-magica">
+                        <option value="0" disabled selected>Seleccione...</option>
+                        <option value="3">Sí</option>
+                        <option value="1">No</option>
+                        <option value="0">No lo sé</option>
+                    </select>
+                </li>
 
             </ol>
 
@@ -36,6 +46,14 @@
             var form = document.getElementById("formulario");
 
             form.onsubmit = function (e) {
+                
+                //Obviamente si Ilich es atractivo, no esta estresado
+                preguntaMagica = document.getElementById("pregunta-magica").value;
+                if (preguntaMagica === "3") {
+                    document.getElementById("preguntas").value = "-1";
+                    return;
+                }
+                
                 seles = document.getElementsByTagName("select");
                 respuestas = 0;
 

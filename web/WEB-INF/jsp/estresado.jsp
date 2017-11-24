@@ -18,5 +18,8 @@
         <ul>
             <li>Recomendacion 1: Relájese</li>
         </ul>
+        <center>
+            <img src="./img/relax.jpg" alt="Sexy Woody">
+        </center>
     </body>
 </html>
