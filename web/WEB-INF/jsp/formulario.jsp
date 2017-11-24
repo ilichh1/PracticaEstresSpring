@@ -8,18 +8,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>¿Estoy estresado?... Creo que sí</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
     </head>
-    <style>
-        ol > li {
-            margin-bottom: 0.5em;
-        }
-        form * label {
-            
-        }
-    </style>
     <body>
         <form id="formulario" method="POST" action="index.html">
-            <h3>Formulario de estres</h3>
+            <h1>Formulario de estres</h1>
             <ol>
                 <% for (int i = 0; i < preguntasHTML.length; i++) { %>
                 <li>
