@@ -1,0 +1,43 @@
+/*
+Licencia pendiente, para cambiar la licencia ir a -> Tools | Templates
+*/
+/* 
+    Created on : Nov 24, 2017, 8:53:13 AM
+    Author     : Ilich Arredondo
+*/
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    width: 100%;
+    text-align: center;
+}
+ol {
+    list-style: none;
+}
+ol > li {
+    counter-increment: contador;
+}
+ol > li:before {
+    content: counter(contador);
+    background-color: rgba(0,200,200);
+    padding: 7px;
+    border-radius: 4px;
+    color: #fff;
+}
+button[type="submit"] {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 4px 0 4px 0;
+    transition: background-color 250ms ease-in-out;
+    border-radius: 8px;
+}
+button[type="submit"]:hover {
+    background-color: red;
+}
+ol > li {
+    margin-bottom: 0.5em;
+}
