@@ -18,6 +18,10 @@ ol {
 }
 ol > li {
     counter-increment: contador;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 ol > li:before {
     content: counter(contador);
